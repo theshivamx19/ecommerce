@@ -1,0 +1,11 @@
+const path = require("path");
+
+module.exports = {
+  // Point to the new file we just created
+  config: path.resolve("config", "config.js"),
+
+  // Point to your existing folders shown in the image
+  "models-path": path.resolve("models"),
+  "migrations-path": path.resolve("migrations"),
+  "seeders-path": path.resolve("seeders"), // (Optional, create this folder if you want seeds)
+};

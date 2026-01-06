@@ -1,0 +1,9 @@
+.env
+/.env
+node_modules/
+/logs
+logs
+
+node_modules
+uploads
+test.js

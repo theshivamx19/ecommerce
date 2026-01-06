@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  db:
+    image: mysql:latest
+    container_name: gf-ecom-mysql
+    restart: always
+    ports:
+      - "3306:3306" # Maps Docker port 3306 to your Laptop port 3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: product_ingestion_db # Automatically creates this DB
+    volumes:
+      - mysql_data:/var/lib/mysql # Saves your data so it doesn't disappear on restart
+
+volumes:
+  mysql_data:
