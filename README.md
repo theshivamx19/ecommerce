@@ -5,6 +5,8 @@
 
 <!-- for the enrichment background process -->
 <!-- https://claude.ai/public/artifacts/21d3bc3c-d39f-46c9-9b85-e932a86ebe38 -->
+<!-- https://claude.ai/public/artifacts/f696e1a1-89b2-43dd-8d9b-d1de25600514 -->
+<!-- https://claude.ai/public/artifacts/d131672b-984d-49cb-b6a2-174e1c1a680d -->
 
 # Authentication System - Quick Start Guide
 
