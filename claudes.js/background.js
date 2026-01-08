@@ -1386,7 +1386,7 @@ const { Server } = require('socket.io');
 const productRoutes = require('./routes/productRoutes');
 const metricsRoutes = require('./routes/metricsRoutes');
 const { serverAdapter, basicAuth } = require('./monitoring/bullBoard');
-const logger = require('./utils/logger');
+const logger = require('../utils/logger');
 const queueMetrics = require('./services/queueMetrics');
 require('./workers/productSyncWorker');
 
