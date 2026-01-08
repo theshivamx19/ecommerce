@@ -1,4 +1,10 @@
+<!-- for the shopify variant deletion -->
 <!-- https://claude.ai/public/artifacts/f41baf0b-95d3-4d4e-af14-624c9a3e42e2 -->
+
+
+
+<!-- for the enrichment background process -->
+<!-- https://claude.ai/public/artifacts/21d3bc3c-d39f-46c9-9b85-e932a86ebe38 -->
 
 # Authentication System - Quick Start Guide
 
